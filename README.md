@@ -1,70 +1,23 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
 In the project directory, you can run:
 
-### `yarn start`
+### `npm install`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Then
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `npm start`
 
-### `yarn test`
+######First The Two Search Functionalities, The Left Search bar is used to search for the routes, and the right filter is used to filter the users' data
+![Capture1](https://github.com/ahmedhabibsalah/reno-crud/assets/47088971/2cf4b605-e720-43e9-a64d-b8faea216e99)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+######Implemented the edit, create, and show functionalities and implemented the assigning functionalities by using react-admin bulkActionButtons'
+![Capture](https://github.com/ahmedhabibsalah/reno-crud/assets/47088971/4ae2c643-72d1-4848-a05e-6d125a5e0fca)
 
-### `yarn build`
+#####Because I didn't build a backend I couldn't transfer the assigned data to the other routes (groups, profiles) so I created two data types with the same data for the users to show my approach in case I had a backend where it filters the data based on the assigned value.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+######Profiles
+![2](https://github.com/ahmedhabibsalah/reno-crud/assets/47088971/6c6185c8-ad04-4738-937e-7a55f3194370)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+######Groups
+![Capture3](https://github.com/ahmedhabibsalah/reno-crud/assets/47088971/a5c5b21b-c23b-4a29-b93c-eaaf6620f2fc)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+######BS: The data you will create will appear dynamically but will be removed after refreshing the page

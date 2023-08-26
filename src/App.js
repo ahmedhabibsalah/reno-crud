@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { Admin, Resource } from "react-admin";
+import { dataProvider } from "./dataProvider";
+import MyAppBar from "./components/layout/AppBar";
+import CreateUser from "./components/user/CreateUser";
+import ListUser from "./components/user/ListUser";
+import ShowUser from "./components/user/ShowUser";
+import EditUser from "./components/user/EditUser";
+import ProfilesList from "./components/profiles/ProfilesList";
+import ListGroups from "./components/groups/ListGroups";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Admin dataProvider={dataProvider} layout={MyAppBar}>
+      <Resource
+        name="users"
+        create={CreateUser}
+        list={ListUser}
+        show={ShowUser}
+        edit={EditUser}
+      />
+      <Resource name="profiles" list={ProfilesList} />
+      <Resource name="groups" list={ListGroups} />
+    </Admin>
   );
 }
 

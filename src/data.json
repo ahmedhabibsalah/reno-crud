@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "name": "Ahmed Habib",
+      "username": "ahmed123",
+      "email": "ahmed123@email.com",
+      "group": "office",
+      "assign": "profiles",
+      "active": true
+    },
+    {
+      "name": "salah mohamed",
+      "username": "d12341",
+      "email": "salah123@email.com",
+      "group": "office",
+      "assign": "groups",
+      "active": true
+    }
+  ],
+  "profiles": [
+    {
+      "name": "Ahmed Habib",
+      "username": "ahmed123",
+      "email": "ahmed123@email.com",
+      "group": "office",
+      "assign": "profiles",
+      "active": true
+    },
+    {
+      "name": "salah mohamed",
+      "username": "d12341",
+      "email": "salah123@email.com",
+      "group": "office",
+      "assign": "groups",
+      "active": true
+    }
+  ],
+  "groups": [
+    {
+      "name": "Ahmed Habib",
+      "username": "ahmed123",
+      "email": "ahmed123@email.com",
+      "group": "office",
+      "assign": "profiles",
+      "active": true
+    },
+    {
+      "name": "salah mohamed",
+      "username": "d12341",
+      "email": "salah123@email.com",
+      "group": "office",
+      "assign": "groups",
+      "active": true
+    }
+  ]
+}
